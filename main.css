@@ -1,0 +1,39 @@
+body{
+    background-color: hsl(185, 75%, 39%);
+    font-size: 18px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.attributions a {
+    color: hsl(228, 45%, 44%);
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.under {
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  z-index: -1;
+}
+
+.over {
+  position:fixed;
+  left: 700px;
+  top: 250px;
+  z-index: -1;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  align-content:center;
+}
+
+.container {
+  padding: 2px 16px;
+  width: 100px;
+  height: 250px;
+}
