@@ -7,7 +7,8 @@
     <!-- displays site properly based on user's device -->
 
     <link rel="icon" type="image/png" sizes="32x32" href="./doc_images/favicon-32x32.png">
-
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
     <title>Frontend Mentor | Profile card component</title>
     <link rel="stylesheet" href="main.css">
 
@@ -16,29 +17,45 @@
 <body>
     <img src="./doc_images/bg-pattern-top.svg" width="500"class="under" />
     <img src="./doc_images/bg-pattern-bottom.svg" width="500"class="over" />
-    <div class="card">
-        <img src="./doc_images/image-victor.jpg" alt="Avatar">
-        <div class="container">
-            <h4><b>Victor Crest</b><p>26</p></h4>
-            <p>London</p>
+    
+    <div class="container">
+        <div class="card">
+            <div class="banner-image">
+                <img src="./doc_images/bg-pattern-card.svg">
+            </div>
+            <img src="./doc_images/image-victor.jpg" width="100px" heigh="100px">
+        </div>
+        <div class="intro">
+            <div class="intro-one">
+                <div class="name">Victor Crest</div>
+                <div class="age"> 26</div>
+            </div>
+            <div class="intro-two">
+                <div> London</div>
+            </div>
+        </div>
+        <hr style="width:100%;text-align:center;margin-left:0;color:gray">
+        <div class="info">
+            
+            <div class="follow">
+                <div>80K</div>
+                <div>Followers</div>
+            </div>
+            <div class="like">
+                <div>803K</div>
+                <div>Likes</div>
+            </div>
+            <div class="photo">
+                <div>1.4K</div>
+                <div>Photos</div>
+            </div>
         </div>
     </div>
     
-    <div class="attribution">
+    <!-- <div class="attribution">
         Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
         Coded by <a href="#">Kaiwalya Koparkar</a>.
-    </div>
+    </div> -->
 </body>
 
 </html>
-
-
-
-80K
-Followers
-
-803K
-Likes
-
-1.4K
-Photos
