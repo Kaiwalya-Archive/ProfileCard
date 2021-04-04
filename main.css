@@ -1,11 +1,11 @@
 body{
-    display: flex;
-    background-color: hsl(185, 75%, 39%);
-    font-size: 18px;
-    padding-left: 35%;
-    padding-right: 35%;
-    padding-top: 8%;
-    padding-bottom: 8%;
+  display: flex;
+  background-color: hsl(185, 75%, 39%);
+  font-size: 18px;
+  padding-left: 35%;
+  padding-right: 50%;
+  padding-top: 8%;
+  padding-bottom: 8%;
 }
 
 .under {
@@ -24,10 +24,15 @@ body{
 
 .container{
   display:flex;
+  position: relative;
   flex-direction:column;
   font-family: 'Kumbh Sans',sans-serif;
-  flex-wrap:nowrap;
+  flex-wrap:wrap;
   background-color: #ffff;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 } 
 
 .card{
@@ -40,7 +45,7 @@ body{
 .intro-one{
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content:flex-end;
 }
 .intro-two{
   display: flex;
@@ -64,25 +69,39 @@ body{
 }
 .follow{
   display: flex;
+  justify-items: baseline;
   flex-direction: column;
 }
 
 .like{
   display: flex;
+  justify-items: baseline;
   flex-direction: column;
 }
 
 .photo{
   display: flex;
+  justify-items: baseline;
   flex-direction: column;
 }
 .one{
   position: relative;
-  top: 0;
-  left: 0;
+  top: 0%;
+  left: 0%;
 }
 .two{
   position: absolute;
-  top: 30%;
-  left: 45%;
+  border-radius: 50%;
+  border: 5px solid #ffff;
+  top: 20%;
+  left: 40;
+}
+
+.stats{
+  font-weight: 700;
+}
+.stats-tag{
+  color: grey;
+  font-weight: 300;
+  font-size: 14px;
 }
