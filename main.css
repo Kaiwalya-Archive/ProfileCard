@@ -76,3 +76,13 @@ body{
   display: flex;
   flex-direction: column;
 }
+.one{
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.two{
+  position: absolute;
+  top: 30%;
+  left: 45%;
+}
