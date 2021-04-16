@@ -1,4 +1,5 @@
 body{
+  font-family: 'Kumbh Sans',sans-serif;
   display: flex;
   background-color: hsl(185, 75%, 39%);
   font-size: 18px;
@@ -23,39 +24,40 @@ body{
 }
 
 .container{
-  display:flex;
-  position: relative;
-  flex-direction:column;
-  font-family: 'Kumbh Sans',sans-serif;
-  flex-wrap:nowrap;
+ 
+  
+  
+  
+  
   background-color: #ffff;
   border-radius: 10px 10px 10px 10px;
 } 
 
 .card{
-  display: flex;
+  display: 
   background-color: #ffff;
   flex-flow: column;
   align-items: center;
 }
 
 .intro-one{
-  display: flex;
+  display:
   flex-direction: row;
   justify-content:flex-end;
 }
 .intro-two{
-  display: flex;
+  display: 
   flex-direction: row;
 }
 .intro{
-  display: flex;
+  padding-top: 50px;
+  display: 
   flex-direction: column;
   align-items: center;
 }
 
 .age{
-  display: flex;
+  display: 
   text-decoration: grey;
 }
 
@@ -105,4 +107,8 @@ body{
   color: grey;
   font-weight: 300;
   font-size: 14px;
+}
+
+.upper{
+  height: 
 }
