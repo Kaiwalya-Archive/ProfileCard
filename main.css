@@ -29,18 +29,6 @@ body{
   align-items: center;
 }
 
-/* .under {
-  position: fixed;
-  left: 0%;
-  top: 0%;
-  z-index: -1;
-}
-
-.over {
-  position:fixed;
-  left: 700px;
-  top: 250px;
-  z-index: -1; */
 
 
 .container{
@@ -72,14 +60,6 @@ body{
 }
 
 
-.{
-
-  margin-top: 54px;
-  height: 250px;
-  margin-bottom: -75px;
-  line-height: 28px;
-
-}
 
 .lower-name{
   color: hsl(0, 0%, 59%);
